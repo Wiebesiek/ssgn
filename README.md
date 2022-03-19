@@ -13,5 +13,7 @@ map <leader>tm :SSGNEditMainNote <CR>
 ```
 
 Configuration:
- - Set a custom location for the main note
-      ```let g:SSGNMainNoteLocation = "~/todo.txt" ```
+Set a custom location for the main note
+```
+let g:SSGNMainNoteLocation = "~/todo.txt" 
+```
