@@ -1,4 +1,4 @@
-# ssgn
+ssgn
 ==========
 
 Super Simple Git Notes for Vim.
