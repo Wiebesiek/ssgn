@@ -32,4 +32,7 @@ Configuration
 
        let g:SSGNNoteDirectory = "~/Notes/" 
 
-
+Comments
+------------
+The default directory used for the notes is ".../plugged/ssgn/data".
+SSGN uses ```git remote get-url origin``` for naming the notes files. This makes it easy to identify the files while still maintaing a degree of uniqueness. This also lets us move, remove and clone repos, while keeping our notes. However, this means that git repos without a remote origin will not be able to maintain a SSGN git note.
