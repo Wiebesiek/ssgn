@@ -1,9 +1,10 @@
 if !exists('g:SSGNNoteDirectory')
     let g:SSGNNoteDirectory = stdpath('data') . "/plugged/ssgn/data/"
-    if !isdirectory(g:SSGNNoteDirectory)
-        call mkdir(g:SSGNNoteDirectory, "p")
-    endif
 end
+
+if !isdirectory(g:SSGNNoteDirectory)
+    call mkdir(g:SSGNNoteDirectory, "p")
+endif
 
 if !exists('g:SSGNMainNoteLocation')
     let g:SSGNMainNoteLocation = g:SSGNNoteDirectory . "MainNote.txt"
