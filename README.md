@@ -11,3 +11,7 @@ add the following to your vimrc
 map <leader>tn :SSGNEditGitNote <CR>
 map <leader>tm :SSGNEditMainNote <CR>
 ```
+
+Configuration:
+ - Set a custom location for the main note
+      ```let g:SSGNMainNoteLocation = "~/todo.txt" ```
