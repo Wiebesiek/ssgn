@@ -7,5 +7,7 @@ Install:
 
 Recommnded use:
 add the following to your vimrc
-```map <leader>tn :SSGNEditGitNote <CR>
-map <leader>tm :SSGNEditMainNote <CR>```
+```
+map <leader>tn :SSGNEditGitNote <CR>
+map <leader>tm :SSGNEditMainNote <CR>
+```
