@@ -1,5 +1,6 @@
 # ssgn
 ==========
+
 Super Simple Git Notes for Vim.
 
 Why another notes plugin?
