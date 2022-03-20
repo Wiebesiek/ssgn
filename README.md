@@ -28,7 +28,7 @@ Configuration
 
        let g:SSGNMainNoteLocation = "~/todo.txt" 
  
-* Set a custom location for the notes directory
+* Set a custom location for the notes directory. The directory must end in with a slash as seen below.
 
        let g:SSGNNoteDirectory = "~/Notes/" 
 
